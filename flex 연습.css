@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+ul,li{
+    list-style: none;
+}
+.flex-container{
+    width: 800px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 10px auto;
+}
+h1{
+    border-bottom: 1px solid #333;
+}
+.flex-container ul{
+    display: flex;
+    width: 600px;
+    gap: 40px;
+    background-color: antiquewhite;
+    margin: 20px auto;
+}
+.flex-container ul li{
+    width: calc(100% / 3);
+    background-color: rgb(162, 211, 182);
+    height: 150px;
+    text-align: center;
+}

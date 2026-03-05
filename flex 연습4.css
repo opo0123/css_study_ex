@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+ul,li{
+    list-style: none;
+}
+.flex-container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background-color: pink;
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+}
+.container{
+    width: 400px;
+    /* background-color: aliceblue; */
+}

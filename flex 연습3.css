@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+ul,li{
+    list-style: none;
+}
+.flex-container{
+    padding: 10px;
+    margin: 10px auto;
+    background-color: rgb(253, 255, 228);
+    width: 570px;
+}
+.flex-container h2{
+    border-bottom: 3px dotted pink;
+}
+.img-container{   
+    padding: 5px;
+    /* margin: 5px auto; */
+    background-color: rgb(253, 255, 228);
+    width: 500px;
+    display: flex;
+    gap: 20px;
+}
+.contents{
+    margin: 11px;
+}

@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+
+.green{
+    background-color: pink;
+    width: 250px;
+    padding: 10px;
+    
+}
+.green li{
+    background-color: black;
+    
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+
+}.green li:last-child{
+    margin: 0px;
+}
